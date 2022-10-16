@@ -4,7 +4,7 @@
 
 body{
   margin: 0;
-  background: linear-gradient(to right,#00aaff,#00ff6c);
+  background: linear-gradient(to right,#040404,#ff0000);
 }
 
 .calculator-grid{
@@ -55,4 +55,14 @@ body{
 .calculator_output .current_oprand{
   color: rgba(255,255,255 , .75);
   font-size: 2rem;
+}
+
+.madeby{
+  text-align: center;
+  padding-top: 10px;
+}
+.madeby>a{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
 }
